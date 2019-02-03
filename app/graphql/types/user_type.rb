@@ -6,4 +6,6 @@ class Types::UserType < Types::BaseObject
     def full_name
         [object.first_name, object.last_name].compact.join(" ")
     end
+
+    field :added_items, [Types::ItemType], null: false
 end

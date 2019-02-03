@@ -64,3 +64,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "graphql", "~> 1.8.10"
 gem 'graphiql-rails', group: :development
+gem "kaminari", '~> 1.1'
